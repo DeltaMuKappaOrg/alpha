@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+body {
+	margin: 0
+}
+
+body, html {
+		width: 100%;
+}
+
+body
+{
+font-family: 'Source Sans Pro';
+font-weight: 200;
+color: #FFFFFF;
+font-weight:300;
+}
+
+p {
+	margin: 0;
+}
+.button4 {
+    background-color: white;
+    color: black;
+    border: 3px solid white;
+    padding: 10px 20px;
+    font-size: 15px;
+    background:  rgba(0,0,0,0);
+    color:  #FFF;
+    width: 170px;
+    font-variant: small-caps;
+}
+
+.hamburger {
+	position: sticky;
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+    z-index: 9;
+}
+
+ul {
+	list-style-type: none;
+}
+
+#menu
+{
+  	position: absolute;
+  	width: 150px;
+  	line-height: 2;
+	margin: -100px 0 0 70px;
+	padding: 50px;
+	padding-top: 150px;
+
+	background: #000;
+	color:white;
+	list-style-type: none;
+	-webkit-font-smoothing: antialiased;
+	/* to stop flickering of text in safari */
+
+	transform-origin: 0% 0%;
+	transform: none;
+
+	transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+	z-index: 5;
+	top: 0px;
+	bottom: 0px;
+}
+
+#menu a:link, a:hover, a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+#menu li {
+	font-size: 20px;
+}
+
+#menuToggle input:checked ~ #menu
+{
+	transform: translate(-100%, 0);
+}
+
+#menuToggle input:checked ~ div
+{
+}
+
+.position {
+	border-radius: 50%;
+}
+
+#menuToggle input
+{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  
+  cursor: pointer;
+  
+  opacity: 0; /* hide this */
+  z-index: 10; /* and place it over the hamburger */
+  
+  -webkit-touch-callout: none;
+}
+
+html {
+	background: url(background.png) no-repeat center center fixed; 
+	background-color: black;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+h2 {
+	margin: 2px 0px;
+}
