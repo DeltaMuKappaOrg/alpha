@@ -1,58 +1,67 @@
 <!DOCTYPE html>
 <html>
 	<style>
-
-</style>
+		html {
+	 		background-image: url(background.png) !important;
+		}
+	</style>
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=0.6">
 		<link href="style.css" rel="stylesheet" type="text/css" media="all">
 		<title>Delta Mu Kappa - Alpha</title>
 	</head>
 	<body>
-		<ul>
-			<li><div>
-				<p style="font-size: 30px;text-align:left;position: fixed">ΔMK - Delta Mu Kappa (Alpha)</p></li>
+		<ul style="position: fixed">
+			<li>
+				<p class="navBarText">ΔMK - Delta Mu Kappa (Alpha)</p>
+			</li>
 		</ul>
-			<div style="text-align: center;position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);letter-spacing: 3px">
-			<p style="font-size:90px;font-weight: bold;">DELTA MU KAPPA</p><br>
-			<p style="font-size:25px;font-weight: bold;">Brotherhood. Service. Integrity. Ambition.</p><br>
-			<p style="font-size:20px;font-weight: bold;">Purdue's Premier Entrepreneurship Fraternity</p><br><br>
-			<center>
-			<table><tr><td>
-			<button class="button4" onclick="window.location.href='about.html'">Learn more</button></td><td>
-			<button class="button4" onclick="window.location.href='rush.html'">Join</button></td></tr></table></center>
-			</div>
-
-		<div id="menuToggle" style="position: fixed;top: 20px; right:30px; bottom: 0px;">
 			
+		<div class="centerContent">
+			<p class="titleBig">DELTA MU KAPPA</p><br>
+			<p class="titleMed">Brotherhood. Service. Integrity. Ambition.</p><br>
+			<p class="titleSmall">Purdue's Premier Entrepreneurship Fraternity</p><br><br>
+			<center>
+				<table><tr>
+					<td><button class="dmk_button" onclick="window.location.href='about.html'">Learn more</button></td>
+					<td><button class="dmk_button" onclick="window.location.href='rush.html'">Join</button></td>
+				</tr></table>
+			</center>
+		</div>
 
-			<input type="checkbox" />
+		<div id="menuToggle">
+			
+			<input type="checkbox"/>
 
 			<div id="menu">
-				<ul style="padding-left: 0px;">
-			      <b><a href="index.html"><li>Home</li></a>
-			      <a href="about.html"><li>About</li></a>
-			      <a href="#"><li>Rush</li></a>
-			      <a href="events.html"><li>Events</li></a>
-			      <a href="leadership.html"><li>Leadership</li></a>
+				<ul>
+			    	<b>
+			 			<a href="index.html"><li>Home</li></a>
+			      		<a href="about.html"><li>About</li></a>
+			      		<a href="rush.html"><li>Rush</li></a>
+			      		<a href="events.html"><li>Events</li></a>
+			      		<a href="leadership.html"><li>Leadership</li></a>
+			  		</b>
 		   		</ul>
 
-		   		<div style="position: absolute;bottom: 0px;left: 0px;width: calc(100% - 20px);padding: 10px;padding-bottom: 30px;text-align: center">
+		   		<div class="menuFooter">
 			   		<img src="dmk_bird.png" width="50px" />
 			   		<br>
 			   		<br>
 			   		<center>
-			   		<table style="border-spacing: 10px;">
-			   			<tr><td><a href="https://www.facebook.com/dmkpurdue/"><img src="facebook.png" width="30px" height="30px"/></a></td>
-			   				<td><a href="https://twitter.com/DMKPurdue"><img src="twitter.png" width="30px" height="30px"/></a></td>
-			   				<td><a href="https://www.instagram.com/dmk.purdue/"><img src="instagram.png" width="30px" height="30px"/></a></td>
-			   			</tr>
-			   		</table>
+				   		<table class="menuFooterSocial">
+				   			<tr>
+				   				<td><a href="https://www.facebook.com/dmkpurdue/"><img src="facebook.png" width="30px" height="30px"/></a></td>
+				   				<td><a href="https://twitter.com/DMKPurdue"><img src="twitter.png" width="30px" height="30px"/></a></td>
+				   				<td><a href="https://www.instagram.com/dmk.purdue/"><img src="instagram.png" width="30px" height="30px"/></a></t>
+				   			</tr>
+				   		</table>
 			   		</center>
 			   		<p>(C) 2018 Delta Mu Kappa - Alpha</p>
 		   		</div>
 	   		</div>
-		    <div class="hamburger"></div>
+	   		<div>
+		    	<div class="hamburger"></div>
 				<div class="hamburger"></div>
 				<div class="hamburger"></div>
 			</div>
