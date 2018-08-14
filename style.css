@@ -11,7 +11,7 @@ html, body {
 }
 
 html {
-	background: url(background.png) no-repeat center center fixed; 
+	/* background: url(background.png) no-repeat center center fixed;  */
 	background-color: black;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -153,8 +153,9 @@ ul {
 }
 
 .pageTitle {
-	padding: 35px;
+	padding: 50px;
 	letter-spacing: 3px;
+	position: relative;
 }
 
 .pageTitleText {
@@ -169,6 +170,7 @@ ul {
 	min-height: 65% !important;
 	color: #000;
 }
+
 
 .centerContent {
 	text-align: center;
