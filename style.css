@@ -204,4 +204,83 @@ ul {
 	font-weight: bold;
 }
 
+/*** About Page Customizations ***/
+
+#about-banner {
+  background: image_url("background.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.about-nav {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  background: white;
+  font-size: 1.2em;
+}
+
+.about-nav ul {
+  list-style-type: none;
+}
+
+.about-nav ul li {
+  display: inline;
+  margin-left: 0.2em;
+  margin-right: 0.2em;
+}
+
+.about-nav ul a {
+  text-decoration: none;
+  color: black;
+}
+
+.about-nav ul a:hover {
+  color: #007bb6;
+}
+
+.circle {
+  display: inline-block;
+  width: 0.2em;
+  height: 0.2em;
+  margin-bottom: 5px;
+  background: black;
+  -moz-border-radius: 50px/50px;
+  -webkit-border-radius: 50px 50px;
+  border-radius: 50px/50px;
+}
+
+.about-wrapper {
+  text-align: center;
+  text-decoration: none;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+.about-wrapper p {
+  width: 60%;
+  margin: auto;
+  text-decoration: none;
+}
+
+@media (max-width: 767px) {
+  .about-wrapper p {width:90%;}
+}
+
+div .about-subheading {
+  font-size: 2em;
+}
+
+div .about-caption {
+  text-align: left;
+  font-size: 1.2em;
+  margin-top: 1.5em;
+}
+
+.remove-hover-effect:hover {
+  text-decoration: none;
+}
+
 
