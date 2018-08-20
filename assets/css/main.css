@@ -112,7 +112,7 @@ body
   /*max-width: 100%;*/
 }
 .images {
-    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("../css/pjimage.jpg");
+  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("../css/pjimage.jpg");
   background-size: cover;
   background-repeat: repeat;
   position: absolute;
@@ -120,6 +120,19 @@ body
   top: 0;
   height: 100%;
   width: 300%;
+  animation: slideshow 100s linear infinite;
+    
+  transform: translate3d(0, 0, 0);
+}
+.images2 {
+  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("../css/pjimage.jpg");
+  background-size: cover;
+  background-repeat: repeat;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 50%;
+  width: 100%;
   animation: slideshow 100s linear infinite;
     
   transform: translate3d(0, 0, 0);

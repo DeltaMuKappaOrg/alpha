@@ -51,6 +51,16 @@ ul {
     font-variant: small-caps;
 }
 
+.rush_button {
+    border: 1px solid black;
+	font-size: 15px;
+	padding: 10px 20px;
+	/*background:  rgba(0,0,0,0);*/
+    color:  black;
+    width: 50%;
+    font-variant: small-caps;
+}
+
 .hamburger {
 	position: sticky;
     width: 35px;
@@ -166,11 +176,26 @@ ul {
 
 .pageContent {
 	background: white;
-	padding: 60px 10px;
+	/* padding: 60px 10px; */
 	min-height: 65% !important;
 	color: #000;
 }
-
+/*
+.aboutBackground {
+}
+.history {
+	background: maroon;
+}
+.mission {
+	background: yellow;
+}
+.values {
+	background: lightcoral;
+}
+.partners {
+	background: green;
+}
+*/
 
 .centerContent {
 	text-align: center;
