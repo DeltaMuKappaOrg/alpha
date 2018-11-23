@@ -210,8 +210,7 @@ ul {
 }
 
 .position {
-
-	border-radius: 50%;
+	border-radius: 10%;
 }
 
 .titleBig {
@@ -308,4 +307,42 @@ div .about-caption {
   text-decoration: none;
 }
 
+div .president-title {
+	font-size: 45px;
+	font-weight: bold;
+}
 
+div .president-name {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+div .president-major {
+	font-size: 15px;
+}
+
+div .president-desc {
+	font-size: 15px;
+}
+
+div .leadership-title {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+div .leadership-name {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+div .leadership-major {
+	font-size: 15px;
+}
+
+div .leadership-desc {
+	font-size: 15px;
+}
+
+.table {
+	opacity: 0;
+}
