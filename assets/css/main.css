@@ -11,12 +11,25 @@ body
     /*padding-top: 50px;*/
     overflow-x: hidden;
     overflow-y: scroll;
+
 }
 #brandImage
 {
     width: 100px; 
     margin-top: -40px;
 }
+
+/*Custom classes for landing page */
+.home-dmk-logo {
+  width: 200px;
+}
+
+.body-font {
+  font-family: 'Catamaran', sans-serif;
+  margin: 0px;
+}
+
+/*end landing section class*/
 
 .button{
     display: block;
