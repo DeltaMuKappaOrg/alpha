@@ -31,6 +31,54 @@ body
 
 /*end landing section class*/
 
+/*custom classes for about page*/
+.about-background {
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45)
+    ),
+  url(https://www.purdue.edu/purdue/images/audience/about-banner.jpg);
+  height: 90vh;
+  background-position: center;
+}
+
+.about-title {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 10px;
+  font-size: 50px;
+  color: white;
+}
+
+.title-font {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.center {
+  text-align: center;
+}
+
+.about-letter {
+  display: block;
+  margin: 0px auto;
+  border-radius: 50%;
+  width: 50%;
+  max-width: 300px;
+  padding-bottom: 30px;
+}
+
+.paragraph {
+  padding: 20px;
+  padding-top: 10px;
+  font-size: 17px;
+}
+
+/*end about section class*/
+
 .button{
     display: block;
    width: auto;
