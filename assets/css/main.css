@@ -77,6 +77,15 @@ body
   font-size: 17px;
 }
 
+.yellow-div {
+  background-color: #FECC2F;
+  color: black;
+}
+
+.sponsors {
+  max-width: 200px;
+}
+
 /*end about section class*/
 
 .button{
