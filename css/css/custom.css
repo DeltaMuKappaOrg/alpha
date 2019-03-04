@@ -1,0 +1,43 @@
+.btn {
+  border-radius: 4px !important;
+}
+
+.header-btn {
+  width: 150px !important;
+}
+
+.hero-wrap .overlay {
+  background: url("../../images/bg.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.hero-wrap .color-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.75;
+  background: #2d3436;
+  /*z-index: 1;*/
+}
+
+.heading-section h2 {
+  font-size: 2.5rem;
+}
+
+.heading-section p {
+  font-size: 1.5rem;
+}
+
+.fas {
+  font-size: 3rem;
+  color: #24bdc9;
+}
+
+.ftco-footer {
+  padding: 3em 0 4em 0;
+}
