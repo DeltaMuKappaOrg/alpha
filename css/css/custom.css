@@ -19,6 +19,7 @@ body {
 .header-btn {
   width: 200px !important;
   margin-right: 10px;
+  margin-bottom: 15px;
 }
 
 /* Hero */
@@ -93,6 +94,12 @@ body {
 
 .heading-section p {
   font-size: 1.5rem;
+}
+
+@media screen and (max-width: 800px) {
+  .slider-text {
+    padding-top: 150px;
+  }
 }
 
 
